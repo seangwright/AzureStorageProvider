@@ -1,11 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Kentico.Xperience.Libraries" Version="[13.0.0, 13.1.0)" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Kentico.Xperience.Libraries" Version="[13.0.53, 13.1.0)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="CMS.AssemblyDiscoverableAttribute">
+		</AssemblyAttribute>
+	</ItemGroup>
 
 </Project>

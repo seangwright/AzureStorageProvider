@@ -4,5 +4,7 @@
     "**/bower_components": true,
     "**/*.code-search": true,
     "**/k12/**": true
-  }
+  },
+
+  "omnisharp.defaultLaunchSolution": "kx13/XperienceCommunity.AzureStorageProvider.sln"
 }
